@@ -18,28 +18,28 @@ const CTASection = () => {
 
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         <h2 className="text-4xl md:text-6xl font-bold mb-6 gradient-text">
-          Ready to Bounce?
+          Ready to Actually Have Fun Plans?
         </h2>
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Join the smart event planning revolution. No more canceled plans, no more failed events.
+          Join the crew who stopped dealing with flaky friends and started having epic hangouts
         </p>
         <p className="text-lg text-muted-foreground/80 mb-12 max-w-xl mx-auto">
-          Start with your core friends, expand intelligently, and watch your events succeed.
+          Get your squad together first, then expand the party. It's that simple.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button variant="hero" size="lg" className="px-8 py-6 text-lg group">
-            Get Started Now
+            Let's Get This Started
             <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
           </Button>
           <Button variant="outline" size="lg" className="px-8 py-6 text-lg border-2">
-            Request Early Access
+            Show Me How It Works
           </Button>
         </div>
 
         <div className="mt-16 text-center">
           <p className="text-sm text-muted-foreground/60">
-            Coming Soon • Smart Event Planning • Social by Design
+            Coming Soon • No More Flaky Friends • Actually Fun Plans
           </p>
         </div>
       </div>

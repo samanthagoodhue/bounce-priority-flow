@@ -5,38 +5,38 @@ const FeatureSection = () => {
   const features = [
     {
       icon: Users2,
-      title: "Phase-Based Invites",
-      description: "Start with core friends, expand to secondary circle, then friends-of-friends",
+      title: "Start with Your Squad",
+      description: "Invite your besties first - if they're not in, nobody else gets invited",
       color: "primary"
     },
     {
       icon: Target,
-      title: "Priority Queues",
-      description: "Limited spots? Send invites in order of preference with smart escalation",
+      title: "Backup Plans Built In",
+      description: "Limited spots? We'll automatically invite the next person if someone flakes",
       color: "accent"
     },
     {
       icon: Clock,
-      title: "Smart Timing",
-      description: "Auto-escalate invites when people don't respond in time",
+      title: "No Waiting Around",
+      description: "People have 30 minutes to respond or we move on to the next person",
       color: "primary"
     },
     {
       icon: CheckCircle,
-      title: "Guaranteed Events",
-      description: "Core friends must confirm before expanding the guest list",
+      title: "Only Good Vibes",
+      description: "Your main crew confirms first, then we expand the party",
       color: "accent"
     },
     {
       icon: Zap,
-      title: "Auto-Management",
-      description: "Background processing handles escalation without host intervention",
+      title: "Runs Itself",
+      description: "Set it up once and we handle all the annoying follow-ups for you",
       color: "primary"
     },
     {
       icon: Bell,
-      title: "Smart Notifications",
-      description: "Real-time updates and reminders for every stage of planning",
+      title: "Stay in the Loop",
+      description: "Real-time updates so you always know who's coming and who's not",
       color: "accent"
     }
   ];
@@ -46,10 +46,10 @@ const FeatureSection = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">
-            How It Works
+            Here's the Magic
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Three smart phases that ensure your events succeed every time
+            Simple steps that make sure your hangouts actually happen
           </p>
         </div>
 

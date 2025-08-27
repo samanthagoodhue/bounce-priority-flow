@@ -34,18 +34,18 @@ const HeroSection = () => {
             Let's Bounce
           </h1>
           <p className="text-xl md:text-2xl mb-4 text-muted-foreground max-w-3xl mx-auto">
-            Smart event planning that ensures your events actually happen
+            Never plan another failed hangout again!
           </p>
           <p className="text-lg mb-12 text-muted-foreground/80 max-w-2xl mx-auto">
-            Phase-based invites, priority queues, and smart timing. No more failed events.
+            Get your squad together with smart invites that actually work. No more "maybe" responses that kill the vibe.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
             <Button variant="hero" size="lg" className="px-8 py-6 text-lg">
-              Start Planning Events
+              Start Planning Something Epic
             </Button>
             <Button variant="outline" size="lg" className="px-8 py-6 text-lg border-2">
-              See How It Works
+              Show Me How
             </Button>
           </div>
         </div>
@@ -57,8 +57,8 @@ const HeroSection = () => {
               <Users className="text-primary" size={24} />
             </div>
             <div className="text-left">
-              <h3 className="font-semibold text-foreground">Core Friends First</h3>
-              <p className="text-sm text-muted-foreground">Ensure key people confirm</p>
+              <h3 className="font-semibold text-foreground">Your Besties First</h3>
+              <p className="text-sm text-muted-foreground">Make sure the crew is down</p>
             </div>
           </div>
 
@@ -67,8 +67,8 @@ const HeroSection = () => {
               <Timer className="text-accent" size={24} />
             </div>
             <div className="text-left">
-              <h3 className="font-semibold text-foreground">Priority Queues</h3>
-              <p className="text-sm text-muted-foreground">Smart invite escalation</p>
+              <h3 className="font-semibold text-foreground">No More Maybes</h3>
+              <p className="text-sm text-muted-foreground">Auto-invite when people flake</p>
             </div>
           </div>
 
@@ -77,8 +77,8 @@ const HeroSection = () => {
               <Sparkles className="text-primary" size={24} />
             </div>
             <div className="text-left">
-              <h3 className="font-semibold text-foreground">Zero Failed Events</h3>
-              <p className="text-sm text-muted-foreground">Guaranteed viability</p>
+              <h3 className="font-semibold text-foreground">Actually Happens</h3>
+              <p className="text-sm text-muted-foreground">No more cancelled plans</p>
             </div>
           </div>
         </div>
