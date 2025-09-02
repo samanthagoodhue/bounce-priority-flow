@@ -44,17 +44,21 @@ jobs:
       - name: Copy index.html to 404.html
         run: cp dist/index.html dist/404.html
 
-      # 6. Setup GitHub Pages
+      # 6. Add .nojekyll file to prevent GitHub Pages from processing with Jekyll
+      - name: Add .nojekyll file
+        run: touch dist/.nojekyll
+
+      # 7. Setup GitHub Pages
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      # 7. Upload build artifact
+      # 8. Upload build artifact
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: './dist'
 
-      # 8. Deploy to GitHub Pages
+      # 9. Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
