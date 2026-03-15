@@ -1,0 +1,9 @@
+# Add this inside your server { } block when serving the Vite dist/ (e.g. on Office Mac)
+# so .js/.mjs are served with correct MIME type and avoid "application/octet-stream" errors.
+#
+# include /path/to/nginx-mime.conf;
+
+location ~* \.(js|mjs)$ {
+    types { }
+    default_type application/javascript;
+}

@@ -36,7 +36,8 @@ function mimeTypePlugin() {
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: './',
+  // Use '/' for custom domain (e.g. lets-bounce.com); use '/repo-name/' if on github.io/repo-name
+  base: '/',
   server: {
     host: "::",
     port: 8080,
