@@ -5,38 +5,38 @@ const FeatureSection = () => {
   const features = [
     {
       icon: Users2,
-      title: "Start with Your Squad",
-      description: "Invite your besties first - if they're not in, nobody else gets invited",
+      title: "Pick your invite list",
+      description: "Choose who to invite from your contacts. Invites go out one by one until every spot is filled.",
       color: "primary"
     },
     {
       icon: Target,
-      title: "Backup Plans Built In",
-      description: "Limited spots? We'll automatically invite the next person if someone flakes",
+      title: "Automatic backfill",
+      description: "Limited spots? If someone can't make it, we automatically invite the next person so you're not left with empty seats.",
       color: "accent"
     },
     {
       icon: Clock,
-      title: "No Waiting Around",
-      description: "People have 30 minutes to respond or we move on to the next person",
+      title: "Set a response window",
+      description: "Give people a set time to respond. If they're not in, we move on to the next person—no chasing or copy-pasting names.",
       color: "primary"
     },
     {
       icon: CheckCircle,
-      title: "Only Good Vibes",
-      description: "Your main crew confirms first, then we expand the party",
+      title: "Friends can suggest people",
+      description: "Your friends can put names forward for your event, and you can get put forward when something comes up that suits you.",
       color: "accent"
     },
     {
       icon: Zap,
-      title: "Runs Itself",
-      description: "Set it up once and we handle all the annoying follow-ups for you",
+      title: "We handle the queue",
+      description: "Set up the event once. We handle the invites, the queue, and the backfill so you stop stressing and the catch up actually happens.",
       color: "primary"
     },
     {
       icon: Bell,
-      title: "Stay in the Loop",
-      description: "Real-time updates so you always know who's coming and who's not",
+      title: "Stay in the loop",
+      description: "Real-time updates so you always know who's in, who's not, and when every spot is filled.",
       color: "accent"
     }
   ];
@@ -46,10 +46,10 @@ const FeatureSection = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">
-            Here's the Magic
+            How it works
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Simple steps that make sure your hangouts actually happen
+            For anyone who wants to see people in real life but finds sorting the plans a bit of a mission
           </p>
         </div>
 

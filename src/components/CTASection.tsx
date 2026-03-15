@@ -18,28 +18,28 @@ const CTASection = () => {
 
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         <h2 className="text-4xl md:text-6xl font-bold mb-6 gradient-text">
-          Ready to Actually Have Fun Plans?
+          Ready to fill those spots?
         </h2>
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Join the crew who stopped dealing with flaky friends and started having epic hangouts
+          Stop copy-pasting names into group chats and manually tracking who's keen. Let's Bounce handles the invites, the queue, and the backfill—so the catch up actually happens.
         </p>
         <p className="text-lg text-muted-foreground/80 mb-12 max-w-xl mx-auto">
-          Get your squad together first, then expand the party. It's that simple.
+          Whether it's the weekly game, a regular catch up, or a last-minute spare ticket, we'll get it sorted.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button variant="hero" size="lg" className="px-8 py-6 text-lg group">
-            Let's Get This Started
+            Set up an event
             <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
           </Button>
           <Button variant="outline" size="lg" className="px-8 py-6 text-lg border-2">
-            Show Me How It Works
+            Show me how it works
           </Button>
         </div>
 
         <div className="mt-16 text-center">
           <p className="text-sm text-muted-foreground/60">
-            Coming Soon • No More Flaky Friends • Actually Fun Plans
+            Coming soon • Fill spots at real-life events • Less friction, more catch ups
           </p>
         </div>
       </div>
