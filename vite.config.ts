@@ -35,9 +35,9 @@ function mimeTypePlugin() {
 }
 
 // https://vitejs.dev/config/
+// VITE_BASE_PATH: set in deploy-pages.yml to '/bounce-priority-flow/' for github.io/repo; omit for custom domain or local
 export default defineConfig(({ mode }) => ({
-  // Use '/' for custom domain (e.g. lets-bounce.com); use '/repo-name/' if on github.io/repo-name
-  base: '/',
+  base: process.env.VITE_BASE_PATH ?? '/',
   server: {
     host: "::",
     port: 8080,
