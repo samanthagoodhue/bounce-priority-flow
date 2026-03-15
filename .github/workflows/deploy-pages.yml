@@ -31,9 +31,8 @@ jobs:
       - name: Install dependencies
         run: npm ci --legacy-peer-deps
 
+      # base '/' so assets work at domain root (e.g. lets-bounce.app). Use VITE_BASE_PATH=/repo-name/ only if serving at github.io/repo-name/.
       - name: Build
-        env:
-          VITE_BASE_PATH: /bounce-priority-flow/
         run: npm run build
 
       - name: Add .nojekyll
