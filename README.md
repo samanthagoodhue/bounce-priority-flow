@@ -1,2 +1,1 @@
-# Let's bounce splash page
-
+# Let's bounce splash
